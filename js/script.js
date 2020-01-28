@@ -1,3 +1,32 @@
+let player = X;
+
+let turn = 0;
+
+function switchPlayer () {
+    if (player === X) {
+        player = O;
+    else {
+        player = X;
+    }
+    }
+}
+
+function writeToTile (button, tile) {
+    $(tile).append(player);
+}
+
+function checkWin () {}
+
+function checkVertical () {}
+
+function checkHorizontal () {}
+
+function checkDiagonal () {}
+
+function performLogic () {
+    count++
+    
+}
 
 
 
